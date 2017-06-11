@@ -40,4 +40,20 @@ class Calculator
     {
         return $this->first - $this->second;
     }
+
+    /**
+     * multiplies 2 numbers 
+     */
+    public function multiply()
+    {
+        return $this->first * $this->second;
+    }
+
+    /**
+     * divides two numbers
+     */
+    public function divide()
+    {
+        return $this->first / $this->second;
+    }
 }
